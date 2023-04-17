@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a07b1e3dc740a684aaff3b1e1f9b86e3
+guid: 0ca56e1af1426b54da86e86a5dfe1aa9
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Crouched Walking
+      name: Ninja Idle
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 31
+      lastFrame: 275
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

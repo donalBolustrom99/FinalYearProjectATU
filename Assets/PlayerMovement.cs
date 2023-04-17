@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpSpeed;
     public float jumpGrace;
 
+    private Animator animator;
     private CharacterController cC;
     private float ySpeed;
     private float originalStepOffset;
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         cC = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
 
         originalStepOffset = cC.stepOffset;
     }
@@ -69,8 +71,14 @@ public class PlayerMovement : MonoBehaviour
 
         if(moveDirection != Vector3.zero)
         {
+            animator.SetBool("isMoving", true);
+
             Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
         }
     }
 }
