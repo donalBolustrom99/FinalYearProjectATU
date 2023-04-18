@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpSpeed;
     public float jumpGrace;
 
+    [SerializeField]
+    private Transform cameraTransform;
+
     private Animator animator;
     private CharacterController cC;
     private float ySpeed;
@@ -33,6 +36,9 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 moveDirection = new Vector3(horizontalInput, 0, verticalInput);
+
+        moveDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up)* moveDirection;
+
         float magnitude = Mathf.Clamp01(moveDirection.magnitude)*speed;
         moveDirection.Normalize();
 
@@ -79,6 +85,18 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("isMoving", false);
+        }
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        if (focus)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
