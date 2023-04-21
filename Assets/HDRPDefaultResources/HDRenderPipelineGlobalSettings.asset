@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
   m_Name: HDRenderPipelineGlobalSettings
   m_EditorClassIdentifier: 
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: d8559ce1f709ea548ab4b798532cc5a3, type: 2}
-  m_LookDevVolumeProfile: {fileID: 11400000, guid: 638eb574e8105e649a8b467305cf3366, type: 2}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 49b1537276e519149b50f4ec3289b6e0, type: 2}
+  m_LookDevVolumeProfile: {fileID: 11400000, guid: 8ada49b9a19a0fb4b94ddbf5ecc8575e, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198260625768269
@@ -85,8 +85,8 @@ MonoBehaviour:
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: a12d957a1a0beae47a5da810a5368883, type: 2}
-  - {fileID: 11400000, guid: 43579b5a85040b9419c28ec819fc16f1, type: 2}
+  - {fileID: 11400000, guid: fc3132dfd9d1b0f4ab87c036972619cf, type: 2}
+  - {fileID: 11400000, guid: 7368440ec7a336448804d7a4a79abcc4, type: 2}
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
