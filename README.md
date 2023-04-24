@@ -14,7 +14,10 @@ The Minor Dissertation for this project will contain 7 Major Catagorys
   6. System Evaluation 
   7. Conclusion
 
-# Project Goal
+# Project Description
+This is a Unity3D project. The game is a platformer, and the goal of the game is to progress to the end while learning about java coding practices.
+
+# Projects Goal
   1. Develop an engaging and interactive platformer game that captures the attention of players and motivates them to learn Java programming concepts.
   2. Create a tutorial-driven gameplay that gradually introduces and reinforces
   Java concepts, such as variables, data types, loops, and conditionals, through
@@ -26,6 +29,12 @@ The Minor Dissertation for this project will contain 7 Major Catagorys
   progress to higher levels.
   5. Provide opportunities for players to practice and reinforce their Java programming skills through coding challenges within the game.
   6. Try to keep the coding challenges simple to not scare away potential new players or to discourage active players.
+  
+  # Project Technologies
+  1. Unity Engine: For creation of the Video Game
+  2. Github: For project version control and management
+  3. Mixamo: For character creation and animations
+  4. Overleaf: For Dissertation creation
 
 # Project Conclusion
 This dissertation has presented a project that aimed to develop a video game using the Unity game engine, Mixamo for character animation, Overleaf for collaborative writing and publishing, and GitHub for version control and project management. The project was successful in achieving its primary goal of creating a functional game that incorporated all of these tools. The game features a unique concept, character looks, and game mechanics that were developed and implemented using Unity. Although it is not without faults, I am satisfied with how it turned out in the overall picture. I was concerned about designing the main character for the game since it is not my forte. However, with the help of some research and Mixamo, I was able to develop a system that made the character feel more lifelike and appropriate for the project.
