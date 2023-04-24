@@ -143,6 +143,5 @@ public class PlayerMovement : MonoBehaviour
             
             cC.Move(velocity);
         }
-       
     }
 }
