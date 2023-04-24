@@ -26,3 +26,6 @@ The Minor Dissertation for this project will contain 7 Major Catagorys
   progress to higher levels.
   5. Provide opportunities for players to practice and reinforce their Java programming skills through coding challenges within the game.
   6. Try to keep the coding challenges simple to not scare away potential new players or to discourage active players.
+
+# Project Conclusion
+This dissertation has presented a project that aimed to develop a video game using the Unity game engine, Mixamo for character animation, Overleaf for collaborative writing and publishing, and GitHub for version control and project management. The project was successful in achieving its primary goal of creating a functional game that incorporated all of these tools. The game features a unique concept, character looks, and game mechanics that were developed and implemented using Unity. Although it is not without faults, I am satisfied with how it turned out in the overall picture. I was concerned about designing the main character for the game since it is not my forte. However, with the help of some research and Mixamo, I was able to develop a system that made the character feel more lifelike and appropriate for the project.
