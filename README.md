@@ -6,7 +6,18 @@ FinalYearProject for ATU Fourth Year, Completed 2023
 https://youtu.be/-42xzuulUrg
 
 # Introduction
+## Abstract from Dissertation
 In today's increasingly digitized world, coding has emerged as a critical skill that empowers individuals to shape and navigate the digital landscape. However, traditional methods of learning coding can be complex and daunting, especially for beginners, resulting in a steep learning curve and disengagement. To address this issue, this dissertation presents an innovative approach to learning basic Java coding through an engaging Unity platformer game.
+
+## Running the Project
+To run the project, simply download the "FYPUnity.exe" from the code above, this will launch the game. The game is controlled with either standard mouse and keyboard  
+
+WASD or Arrow Keys for Movement  
+Space to Jump  
+Shift Keys for Walking  
+Escape to Spawn  
+  
+Controller that are compatible with unity should also work, Xbox One controller was used for testing.
 
 ## The Minor Dissertation for this project will contain 7 Major Category
   1. Introduction
