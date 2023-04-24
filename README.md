@@ -19,7 +19,7 @@ In today's increasingly digitized world, coding has emerged as a critical skill 
 # Project Description
 This is a Unity3D project. The game is a platformer, and the goal of the game is to progress to the end while learning about java coding practices.
 
-## Projects Goal
+## Projects Goals
   1. Develop an engaging and interactive platformer game that captures the attention of players and motivates them to learn Java programming concepts.
   2. Create a tutorial-driven gameplay that gradually introduces and reinforces
   Java concepts, such as variables, data types, loops, and conditionals, through
